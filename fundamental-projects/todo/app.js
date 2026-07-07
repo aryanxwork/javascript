@@ -31,6 +31,9 @@ while (true) {
             console.log("Invalid index!");
         }
     }
+    else {
+        console.log("Invalid command! Please enter 'list', 'add', 'delete', or 'quit'.");
+    }
 
     input = prompt("What would you like to do?").toLowerCase();
 }
